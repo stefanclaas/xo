@@ -1,4 +1,4 @@
-// OCR-Fax armor for Crockford-base32 messages.
+// An armor format for Crockford-base32 messages.
 
 package main
 
