@@ -64,10 +64,10 @@ func formatGroups(encoded string) string {
 
 	for i, group := range groups {
 		formatted.WriteString(group)
-		if (i+1)%5 == 0 && (i+1)%30 != 0 {
+		if (i+1)%5 == 0 && (i+1)%55 != 0 { // for Usenet change to 30
 			formatted.WriteString(" ")
 		}
-		if (i+1)%30 == 0 {
+		if (i+1)%55 == 0 { // for Usenet change to 30
 			formatted.WriteString("\n")
 		}
 	}
